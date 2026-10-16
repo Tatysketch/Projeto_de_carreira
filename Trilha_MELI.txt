@@ -1,0 +1,43 @@
+O que faz um assistente de Torre de Controle
+
+O assistente é quem mantém a operação visível e sob controle no dia a dia. Ele acompanha o que está acontecendo e avisa quando algo sai do esperado. Na prática, costuma:
+
+Monitorar indicadores em tempo real: produção por turno, backlog, SLA, aderência ao FIFO, unidades atrasadas.
+Alimentar e conferir bases: planilhas, apontamentos e dados que abastecem os painéis (no Looker Studio, por exemplo).
+Gerar reports recorrentes: fechamento de turno, report diário e semanal, passagem de turno entre T1, T2 e T3.
+Sinalizar desvios: acionar líderes ou a operação quando um indicador cai, uma unidade fica parada ou o SLA corre risco.
+Tratar exceções simples: investigar por que uma carga atrasou e registrar a causa.
+Apoiar o analista: levantar dados para análises maiores, ajustar painéis e documentar processos.
+
+Em resumo, o assistente executa e monitora, e o analista interpreta e propõe melhorias.
+
+Caminho de júnior a sênior
+
+Cada empresa define seus níveis de um jeito, então vale pedir ao seu gestor ou ao RH a trilha de carreira interna do MELI. A lógica geral costuma ser esta:
+
+Analista Júnior: “faz bem o que é pedido”
+
+Domina os indicadores da área e sabe explicar o que cada um significa, como NET vs SLA.
+Monta e mantém painéis e relatórios com autonomia, sem precisar de alguém revisando tudo.
+Tem SQL básico a intermediário, planilhas avançadas (PROCV/XLOOKUP, tabelas dinâmicas, QUERY) e Looker Studio.
+Encontra a causa de um problema quando é direcionado a investigar.
+
+Analista Pleno: “encontra o problema e propõe a solução”
+
+Identifica sozinho padrões e causas-raiz, por exemplo um turno que perde aderência sempre no mesmo horário.
+Automatiza processos manuais com Apps Script, SQL ou Python.
+Conduz pequenos projetos de ponta a ponta e apresenta resultados para lideranças.
+Conversa bem com a operação e traduz dado em ação.
+
+Analista Sênior: “muda como a área trabalha”
+
+Define quais indicadores importam e como medi-los.
+Lidera projetos com impacto mensurável, como redução de atrasos ou ganho de produtividade, e sabe quantificar esse impacto.
+Influencia decisões de gestores e de outras áreas.
+Forma e orienta analistas mais novos.
+Pontos que mais aceleram a subida
+SQL: é o divisor de águas entre quem usa painel e quem constrói análise.
+Projetos com resultado em número: algo como “reduzi X% dos atrasos” pesa muito mais que “fiz um dashboard”.
+Automação: o que você já faz com Apps Script puxando dados para o painel é exatamente o tipo de coisa que diferencia um perfil.
+Comunicação: saber explicar um dado de forma simples para quem está na operação.
+Python, para um próximo passo rumo a analista de dados: pandas e análise exploratória.
